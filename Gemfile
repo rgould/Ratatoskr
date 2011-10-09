@@ -5,6 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'formtastic'
 gem 'haml'
 gem 'pry'
 gem 'pry-git'
