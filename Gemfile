@@ -14,6 +14,7 @@ end
 
 group :production do
   gem 'pg' # postgres for heroku
+  gem 'therubyracer-heroku'
 end
 
 # Gems used only for assets and not required
