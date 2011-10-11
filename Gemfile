@@ -7,6 +7,7 @@ gem 'rails', '3.1.1'
 
 gem 'formtastic'
 gem 'haml'
+gem 'heroku'
 gem 'pry'
 gem 'pry-git'
 gem 'sqlite3'
