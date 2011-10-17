@@ -1,2 +1,5 @@
+%p We're busy preparing to launch our first game, Guerrilla Checkers. If you want to be notified when it's ready, enter your email.
 = semantic_form_for @subscriber do |form|
-  = form.input :email
+  = form.inputs :class => "form-stacked" do
+    = form.input :email, :label => false, :hint => "We will never give out your email address to anyone else. We hate spam.", :input_html => { :class => 'xlarge', :placeholder => "Enter your email"}
+    = form.commit_button "Notify me!", :button_html => { :class => 'btn primary' }
