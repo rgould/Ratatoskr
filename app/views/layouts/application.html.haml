@@ -20,7 +20,11 @@
       %footer
         %header
         %p
-          %span.copyright Copyright 2011 Little Viking Games
+          %span.copyright
+            Copyright 2011 Little Viking Games.
+            %br
+            Background texture from
+            = link_to 'subtlepatterns.com', 'http://subtlepatterns.com'
           %span.contact= mail_to "info@littlevikinggames.com"
 
       = yield :body_end
