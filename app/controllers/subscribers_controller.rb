@@ -6,9 +6,11 @@ class SubscribersController < ApplicationController
   def create
     @subscriber = Subscriber.new(params[:subscriber])
     if @subscriber.save
-      flash[:notice] = "Thanks! You have been subscribed!"
-      redirect_to :action => :new
+      redirect_to :action => :thanks
     end
+  end
+
+  def thanks
   end
 
   def destroy
